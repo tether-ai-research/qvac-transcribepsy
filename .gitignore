@@ -1,0 +1,24 @@
+# Python virtualenv for the conversion and export scripts.
+venv/
+.venv/
+.venv-*/
+.pip-cache/
+__pycache__/
+*.pyc
+
+# CMake build trees.
+build/
+build-*/
+
+# Model files (large, downloaded from the Hugging Face Hub).
+models/
+*.nemo
+*.gguf
+*.mlpackage/
+*.mlmodelc/
+
+# IDE / editor / OS cruft.
+.DS_Store
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,31 @@
+#version 450
+
+#include "types.glsl"
+
+// Snake activation (ACE-Step Oobleck VAE): y = x + sin(a*x)^2 * inv_b, with
+// per-channel a and inv_b.  x / dst are [T, C] contiguous; a and inv_b hold one
+// F32 value per channel.  One thread per element; channel c = idx / T.
+layout (push_constant) uniform parameter
+{
+    uint ne;   // total dst elements (T*C)
+    uint T;    // ne0 (elements per channel)
+} p;
+
+layout (binding = 0) readonly  buffer X {float data_x[];};   // x     [T, C]
+layout (binding = 1) readonly  buffer A {float data_a[];};   // a     [C]
+layout (binding = 2) readonly  buffer B {float data_b[];};   // inv_b [C]
+layout (binding = 3) writeonly buffer D {float data_d[];};   // dst   [T, C]
+
+layout(local_size_x = 512, local_size_y = 1, local_size_z = 1) in;
+
+void main() {
+    const uint idx = gl_GlobalInvocationID.z * 262144 + gl_GlobalInvocationID.y * 512 + gl_GlobalInvocationID.x;
+    if (idx >= p.ne) {
+        return;
+    }
+
+    const uint  c = idx / p.T;
+    const float x = data_x[idx];
+    const float s = sin(data_a[c] * x);
+    data_d[idx]   = x + s * s * data_b[c];
+}
