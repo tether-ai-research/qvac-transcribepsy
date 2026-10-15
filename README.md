@@ -16,9 +16,9 @@
 [![GGUF](https://img.shields.io/badge/GGUF-Q8__0-ffcc4d?logo=huggingface&logoColor=black)](https://huggingface.co/qvac/TranscribePsy-250M-EU-sub-gguf)
 [![Core ML](https://img.shields.io/badge/Core%20ML-Apple%20Neural%20Engine-ffcc4d?logo=apple&logoColor=white)](https://huggingface.co/qvac/TranscribePsy-250M-EU-sub-coreml)
 
-![Hugging Face Article](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20Article-coming%20soon-lightgrey)
+[![Hugging Face Article](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face%20Article-TranscribePsy-ffcc4d)](https://huggingface.co/blog/qvac/transcribepsy-250m)
 ![Technical Report](https://img.shields.io/badge/Technical%20Report-coming%20soon-lightgrey?logo=arxiv&logoColor=white)
-![CAFE Paper](https://img.shields.io/badge/CAFE%20Paper-coming%20soon-lightgrey?logo=arxiv&logoColor=white)
+[![CAFE Paper](https://img.shields.io/badge/CAFE%20Paper-arXiv%3A2610.19134-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.19134)
 
 [Models](#-models) •
 [Benchmarks](#-benchmarks) •
@@ -429,7 +429,20 @@ Built on [QVAC parakeet.cpp](https://github.com/tetherto/qvac-fabric-speech.cpp)
 
 ## 📝 Citation
 
-A citation is coming soon.
+**CAFE, model training and evaluation**
+
+```bibtex
+@article{liu2026cafe,
+  title={{CAFE}: Confining Feature Distillation to Language-Routed Adapters for Compact Multilingual Automatic Speech Recognition},
+  author={Liu, Tianchi and Moratelli, Nicholas and Hashmi, Khurram Azeem and Zolfaghari, Mohammadreza and Jain, Rishabh and Lu, Louis and Park, Changdae and Nazir, Amril},
+  journal={arXiv preprint arXiv:2610.19134},
+  year={2026}
+}
+```
+
+**Technical report and on-device evaluation**
+
+Coming soon.
 
 ## ©️ Copyright
 
