@@ -434,7 +434,7 @@ Built on [QVAC parakeet.cpp](https://github.com/tetherto/qvac-fabric-speech.cpp)
 ```bibtex
 @article{liu2026cafe,
   title={{CAFE}: Confining Feature Distillation to Language-Routed Adapters for Compact Multilingual Automatic Speech Recognition},
-  author={Liu, Tianchi and Moratelli, Nicholas and Hashmi, Khurram Azeem and Zolfaghari, Mohammadreza and Jain, Rishabh and Lu, Louis and Park, Changdae and Nazir, Amril},
+  author={Liu, Tianchi and Moratelli, Nicholas and Hashmi, Khurram Azeem and Zolfaghari, Mohammadreza and Jain, Rishabh and Lu, Louis and Park, Chang Dae and Nazir, Amril},
   journal={arXiv preprint arXiv:2610.19134},
   year={2026}
 }
