@@ -418,7 +418,7 @@ installed, to read formats other than 16 kHz mono WAV.
 The engine is licensed under Apache-2.0 ([LICENSE](LICENSE), [NOTICE](NOTICE)). ggml is MIT
 ([ggml/LICENSE](ggml/LICENSE)). `src/dr_wav.h` is available under the Unlicense or MIT-0, at your
 choice. The TranscribePsy model weights are also released under Apache-2.0 and are distributed
-separately on Hugging Face; see the model cards.
+separately on Hugging Face; see the model cards. These models are intended to support researchers and for educational purposes.
 
 ## 🙏 Acknowledgements
 
