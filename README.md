@@ -28,11 +28,25 @@
 [Requirements](#-requirements-at-a-glance) •
 [License](#-license)
 
-<img src="assets/efficiency_six_phones.png" alt="TranscribePsy on-device efficiency, average of six phones" width="900">
-
-<em>Averaged over six phones, TranscribePsy is the fastest, the lightest on memory and the quickest to load.</em>
-
 </div>
+
+---
+
+## 📢 Updates
+
+- [Oct 2026] **[TranscribePsy-250M-EU-sub](https://huggingface.co/qvac/TranscribePsy-250M-EU-sub) is now officially listed on the
+  [Open ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)**, and it is on
+  the Pareto frontier of model size and WER in the leaderboard's Multilingual track.
+
+  <img src="assets/oasr_multilingual_pareto.png" alt="Multilingual WER against model size on the Open ASR Leaderboard" width="80%">
+
+  *The plot and all its data are taken from the official leaderboard page
+  (retrieved on 26 October 2026, leaderboard version 26-10-2026). The WER (%) is averaged over six
+  languages (German, French, Italian, Spanish, Portuguese and Dutch).*
+
+- [Oct 2026] **The paper on CAFE, the language-routed adapter design behind
+  [TranscribePsy-250M-EU](https://huggingface.co/qvac/TranscribePsy-250M-EU), is now on
+  [arXiv](https://arxiv.org/abs/2610.19134).**
 
 ---
 
@@ -129,6 +143,12 @@ the same test settings, and every figure is the mean of the best three of five r
 | Qwen3-ASR-0.6B | 0.462 | 7,616 ms | 677 ms | 1,169 MiB |
 | Whisper-Medium | 0.931 | 14,636 ms | 870 ms | 1,569 MiB |
 | omniASR-CTC-1B-v2 | 0.998 | 15,372 ms | 898 ms | 1,275 MiB |
+
+<p align="center">
+  <img src="assets/efficiency_six_phones.png" alt="TranscribePsy on-device efficiency, average of six phones" width="900">
+</p>
+
+<p align="center"><em>Averaged over six phones, TranscribePsy is the fastest, the lightest on memory and the quickest to load.</em></p>
 
 **TranscribePsy per device**
 
