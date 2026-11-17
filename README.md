@@ -4,12 +4,11 @@
 [![Task: Multilingual Automatic Speech Recognition](https://img.shields.io/badge/task-Multilingual%20Automatic%20Speech%20Recognition-2f6fde)](#-what-it-does)
 [![Runs on Linux, Android, macOS and iOS](https://img.shields.io/badge/runs%20on-Linux%20%C2%B7%20Android%20%C2%B7%20macOS%20%C2%B7%20iOS-2f6fde)](#-models)
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-2f6fde)](LICENSE)
-[![Engine: qvac-fabric-speech.cpp](https://img.shields.io/badge/engine-qvac--fabric--speech.cpp-555555?logo=github)](https://github.com/tetherto/qvac-fabric-speech.cpp)
 
 # QVAC TranscribePsy
 
 **Multilingual automatic speech recognition (ASR) that runs on the phone in your pocket**<br>
-**GGUF on the CPU and Core ML on the Apple Neural Engine, through [qvac-fabric-speech.cpp](https://github.com/tetherto/qvac-fabric-speech.cpp)**
+**GGUF on the CPU and Core ML on the Apple Neural Engine**
 
 [![PyTorch: TranscribePsy-250M-EU](https://img.shields.io/badge/PyTorch-TranscribePsy--250M--EU-ee4c2c?logo=pytorch&logoColor=white)](https://huggingface.co/qvac/TranscribePsy-250M-EU)
 [![PyTorch: TranscribePsy-250M-EU-sub](https://img.shields.io/badge/PyTorch-TranscribePsy--250M--EU--sub-ee4c2c?logo=pytorch&logoColor=white)](https://huggingface.co/qvac/TranscribePsy-250M-EU-sub)
